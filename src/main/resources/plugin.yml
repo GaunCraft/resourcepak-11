@@ -1,0 +1,14 @@
+name: GaunCraftPack
+version: '${project.version}'
+main: com.gauncraft.pack.GaunCraftPack
+api-version: '1.21'
+description: GaunCraft resource pack'ini oyuncular girince otomatik gonderir
+commands:
+  gcpack:
+    description: GaunCraft pack komutu
+    usage: /gcpack <reload|send [oyuncu]>
+    permission: gauncraftpack.admin
+permissions:
+  gauncraftpack.admin:
+    description: Pack komutlarini kullanma
+    default: op

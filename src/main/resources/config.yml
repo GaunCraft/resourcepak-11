@@ -1,0 +1,20 @@
+# Bos birakirsan GitHub Actions'in jar'a yazdigi adres ve sha1 kullanilir (onerilen).
+# Kendi adresini kullanmak istersen ikisini de doldur.
+url: ""
+sha1: ""
+
+# true: oyuncu pack'i reddederse sunucudan atilir
+force: false
+
+# Oyuncu girdikten kac tick sonra pack gonderilsin (20 tick = 1 saniye)
+send-delay-ticks: 20
+
+# Oyuncuya gorunen mesaj (renk kodu: &)
+prompt: "&eGaunCraft resource pack'i yuklensin mi?"
+
+messages:
+  reloaded: "&aAyarlar yenilendi."
+  sent: "&aPack gonderildi: &f%player%"
+  no-pack: "&cPack adresi ya da sha1 gecersiz, konsola bak."
+  not-found: "&cOyuncu bulunamadi."
+  failed: "&cPack indirilemedi. Baglantini kontrol edip tekrar gir."

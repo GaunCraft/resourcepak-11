@@ -26,7 +26,7 @@ public final class GaunCraftPack extends JavaPlugin implements Listener, Command
         saveDefaultConfig();
         loadPack();
         getServer().getPluginManager().registerEvents(this, this);
-        var cmd = getCommand("gcpack");
+        var cmd = getCommand("gcbliss");
         if (cmd != null) cmd.setExecutor(this);
     }
 

@@ -1,14 +1,15 @@
-name: GaunCraftPack
+name: GaunCraft_Resourcepack-2
 version: '${project.version}'
 main: com.gauncraft.pack.GaunCraftPack
 api-version: '1.21'
-description: GaunCraft resource pack'ini oyuncular girince otomatik gonderir
+description: Bliss resource pack'ini oyuncular girince otomatik gonderir
 commands:
-  gcpack:
-    description: GaunCraft pack komutu
-    usage: /gcpack <reload|send [oyuncu]>
+  gcbliss:
+    description: Bliss pack komutu
+    usage: /gcbliss <reload|send [oyuncu]>
     permission: gauncraftpack.admin
 permissions:
   gauncraftpack.admin:
     description: Pack komutlarini kullanma
     default: op
+    
